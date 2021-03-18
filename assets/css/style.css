@@ -1,13 +1,16 @@
+/* Universal selector that affects the entire webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets the background color of the webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* Defines all attributes within the header tag */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,11 +18,13 @@ header {
     color: #ffffff;
 }
 
+/* Sets the style of each h1 tag */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Defines all attributes within each section of the header */
 header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -28,24 +33,29 @@ header section {
     font-size: 20px;
 }
 
+/* Defines the list style type within each section of the header */
 header section ul {
     list-style-type: none;
 }
 
+/* Defines the attributes of each list item within the unordered list located within each header section element */
 header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets the color and text decoration for the hyperlinks */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets the font size for each paragraph */
 p {
     font-size: 16px;
 }
 
+/* Contains attributes for the cover image */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,22 +65,26 @@ p {
     background-position: center;
 }
 
+/* Controls relative positioning of an image within the content section */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Controls relative positioning of an image within the content section */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Defines the attributes of the content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Defines the attributes of each section within the content section*/
 .contentInfo {
     margin-bottom: 20px;
     padding: 50px;
@@ -80,15 +94,18 @@ p {
     color: #ffffff;
 }
 
+/* Defines the attributes of each image within the content section */
 .contentInfo img {
     max-height: 200px;
 }
 
+/* Defines the attributes of each h2 tag within the content section */
 .contentInfo h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Defines the attributes of the benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -100,22 +117,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Defines the attributes of each section within the benefits section*/
 .benefitInfo {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Defines the attributes of each h3 tag within the benefits section*/
 .benefitInfo h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Defines the attributes of each image within the benefits section */
 .benefitInfo img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Defines the attributes of the footer section */
 footer {
     padding: 30px;
     clear: both;
@@ -123,6 +144,7 @@ footer {
     text-align: center;
 }
 
+/* Defines the attributes of each h2 tag within the footer section*/
 footer h2 {
     font-size: 20px;
 }
